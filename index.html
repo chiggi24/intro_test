@@ -1,0 +1,90 @@
+<!--Initializing HTML file with language, doctype etc  -->
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Titles</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+<!--Creating top navigation -->
+<div class="topnav">
+    <a class="Introduction" href="#Introduction">Introduction</a>
+    <a class="workexperience" href="#workexperience">Work Experience</a>
+    <a class="myinfo" href="#myinfo">About</a>
+    <a class="contact" href="#contact">Contact</a>
+</div>
+
+<!--Creating hero image -->
+<body>
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>I am Christopher Higgins</h1>
+        <p>And a software engineering student</p>
+
+        <form action ="functionalsample.pdf"><input type="submit" value="Click to view resume"> </form>
+    </div>
+</div>
+
+<!--Creating about me section -->
+<div class="about-section">
+    <h1 id="Introduction">Introduction</h1>
+    <p>My name is Christopher and I am currently studying software engineering at the University of Western Ontario. My hobbies include coding, and gaming.</p>
+    <p></p>
+</div>
+
+<!--Creating work experience section -->
+<div class="Work-experience">
+    <h1 id="workexperience">Work Experience</h1>
+    <p>I have worked at McDonald's.</p>
+    <p></p>
+</div>
+
+<!--Creating my information section -->
+<h2 style="text-align:center" id="myinfo">My Information</h2>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="graduation-christopher-higgins_4.png" alt="Chris" style="width:25%">
+            <div class="container">
+                <h2>Christopher Higgins</h2>
+                <p class="title">Portfolio Creator</p>
+                <p>Ex-McDonalds employee.</p>
+                <p>********@uwo.ca</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Creating container for user to send a message -->
+<div class="container">
+    <div style="text-align:center">
+        <h2 id="contact">Contact Me</h2>
+        <p>Leave me a message:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="australia">Mexico</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <form action ="confirmsent.html"><input type="submit" value="Submit"> </form>
+        </div>
+    </div>
+</div>
+
+<!--Creating a footer-->
+<div class="footer">
+    <p>Name: Christopher Higgins | Email: ********@uwo.ca | Phone: (***) - *** - ****</p>
+</div>
+</body>
+
+<!--Closing  HTML -->
+</html>
